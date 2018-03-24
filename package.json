@@ -1,0 +1,29 @@
+{
+  "name": "home-file-server-cli",
+  "version": "1.0.0",
+  "description": "A cli for the home-file-server module",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "keywords": [
+    "cli",
+    "network",
+    "server"
+  ],
+  "author": "Corrado Canepari <caneparicorrado@outlook.it>",
+  "license": "MIT",
+  "dependencies": {
+    "caporal": "^0.10.0",
+    "colors": "^1.2.1",
+    "home-file-server": "^1.0.0",
+    "ip": "^1.1.5"
+  },
+  "bin": {
+    "home-server": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodingHobby/home-server-cli.git"
+  }
+}
