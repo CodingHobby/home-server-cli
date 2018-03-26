@@ -16,7 +16,7 @@
   "dependencies": {
     "caporal": "^0.10.0",
     "colors": "^1.2.1",
-    "home-file-server": "^1.0.0",
+    "home-file-server": "latest",
     "ip": "^1.1.5"
   },
   "bin": {
